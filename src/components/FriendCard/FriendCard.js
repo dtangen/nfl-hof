@@ -15,10 +15,10 @@ const FriendCard = props => (
           <strong>Position(s):</strong> {props.position}
         </li>
         <li>
-          <strong>Team(s):</strong> {props.team}
+          <strong>Team(s):</strong> {props.team[0]} {props.team.slice(-1)[0]}
         </li>
         <li>
-          <strong>Years Active:</strong> {props.years}
+          <strong>Years Active:</strong> {props.years[0]} - {props.years.slice(-1)[0]}
         </li>
         <li>
           <strong>Class:</strong> {props.class}
