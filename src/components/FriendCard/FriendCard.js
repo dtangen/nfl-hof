@@ -15,7 +15,7 @@ const FriendCard = props => (
           <strong>Position(s):</strong> {props.position}
         </li>
         <li>
-          <strong>Team(s):</strong> {props.team[0]} {props.team.slice(-1)[0]}
+          <strong>Team(s):</strong> {props.team}
         </li>
         <li>
           <strong>Years Active:</strong> {props.years[0]} - {props.years.slice(-1)[0]}
@@ -25,7 +25,7 @@ const FriendCard = props => (
         </li>
       </ul>
     </div>
-    <span onClick={() => props.removeFriend(props.id)} className="remove">
+    <span onClick={() => props.removePlayer(props.id)} className="remove">
       𝘅
     </span>
   </div>
