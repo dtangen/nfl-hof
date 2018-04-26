@@ -23,5 +23,27 @@
         ],
         "class": 1980,
         "image": "https://vignette.wikia.nocookie.net/packers/images/8/8f/Herb_Adderley.PNG/revision/latest?cb=20170718132221"
+    },
+    {
+        "id": 2,
+        "name": "Troy Aikman",
+        "position": "Quarterback",
+        "team": ["Dallas Cowboys"],
+        "years": [
+            1989,
+            1990,
+            1991,
+            1992,
+            1993,
+            1994,
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000
+        ],
+        "class": 2006,
+        "image": "http://www.profootballhof.com/assets/1/26/DimRelated/Aikman_Troy-3.png?52621"
     }
 ]
