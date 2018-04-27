@@ -34,6 +34,7 @@ class App extends Component {
             team={player.team}
             years={player.years}
             class={player.class}
+            
           />
         ))}
       </Wrapper>
